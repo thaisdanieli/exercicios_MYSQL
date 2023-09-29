@@ -1,0 +1,5 @@
+use vendas;
+
+SELECT * 
+FROM DUPLICATA
+WHERE banco = 'BRADESCO';

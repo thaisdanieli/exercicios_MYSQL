@@ -68,3 +68,10 @@ INSERT INTO associado(Plano, Nome, Endereço, Cidade, Estado, CEP)
 VALUE ('E3', 'PAULO BRUNO AMARAL', 'R. ARGENZIO BRILHANTE, 88', 'BARUERI', 'SP', '06460-990');
 INSERT INTO associado(Plano, Nome, Endereço, Cidade, Estado, CEP)
 VALUE ('E3', 'WALDENICE DE OLIVEIRA', 'R. OURO VELHO, 12', 'BARUERI', 'SP', '06460-998');
+INSERT INTO associado(Plano, Nome, Endereço, Cidade, Estado, CEP)
+VALUE ('M3', 'MARCOS DA CUNHA', 'AV. PEDROSO DE MORAES', 'SAO PAULO', 'SP', '04040-444');
+
+select * from plano;
+
+ALTER TABLE plano
+RENAME COLUMN Numero TO Plano;
